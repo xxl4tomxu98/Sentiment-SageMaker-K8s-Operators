@@ -1,0 +1,4 @@
+# Sentiment-Analysis-WebApp
+
+A Recurrent Neural Network (RNN) that uses a web app to enter text and provides feedback whether the text is positive or negative. The whole point of this project was to demonstrate the use of AWS Sagemaker, [`Sagemaker Operators for Kubernetes`](https://docs.aws.amazon.com/sagemaker/latest/dg/amazon-sagemaker-operators-for-kubernetes.html) to orchestrate and trigger the model through an endpoint so that the web app can transmit the text, run the model, and get the result.
+Detailed contents in [`Amazon Sagemaker Operator`](https://github.com/aws/amazon-sagemaker-operator-for-k8s) provide basic usage and Yaml example files for using this Sagemaker operators to connect AWS Sagemaker and EKS deployed Kubernestes Cluster which hosts frontend React App receiving reviews to send to RNN ML model hosted in Sagemaker.
